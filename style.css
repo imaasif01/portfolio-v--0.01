@@ -221,6 +221,9 @@ html {
 .project-card-1 {
   border-radius: 10px;
 }
+.btn01 {
+  transition: all 0.5s ease-in;
+}
 
 .img-3 img {
   transition: transform 0.2s;
@@ -258,4 +261,18 @@ html {
   .info-part {
     display: none;
   }
+  .footer-1 a {
+    display: none;
+  }
+}
+/* case study */
+
+.case-overview {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.case-overview-text {
+  font-size: 18px;
+  font-weight: 400;
 }

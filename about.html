@@ -20,6 +20,51 @@
       crossorigin="anonymous"
     />
   </head>
+  <style>
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      color: grey;
+    }
+    h3 {
+      font-size: 25px;
+      font-weight: 600;
+    }
+    h4 {
+      font-size: 25px;
+      font-weight: 500;
+    }
+    h6 {
+      font-size: 19px;
+      font-weight: 600;
+    }
+    h5 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+    img {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    .proto-link {
+      color: black;
+      text-decoration: underline;
+      font-size: 22px;
+      font-weight: 600;
+    }
+    .proto-link:hover {
+      color: lightslategray;
+      text-decoration: underline;
+    }
+    strong {
+      color: rgb(46, 44, 44);
+    }
+    .alink:hover {
+      text-decoration: none;
+      color: white;
+    }
+  </style>
   <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light postion-fixed">
       <div class="container">
@@ -54,13 +99,535 @@
         <div class="row">
           <h1 class="text-center mt-5">UI/UX Case study -IKEA Application</h1>
           <img
-            src="images/coming-soon.jpg"
+            src="images/Dribbble shot - 1.png"
             alt="coming soon"
-            width="500px"
-            height="500px"
+            width="900px"
+            height="600px"
+            class="mt-3 img-fluid"
           />
         </div>
-        <h4 class="text-center">Will be there in couple of days</h4>
+        <h3 class="d-flex align-items-start mt-5 case-overview">Overview</h3>
+        <p class="mt-3">
+          We know that IKEA is the largest furniture company in the world. This
+          company has lots of products making people easy to use and build on
+          their own in some product but why their app is hard to use and
+          difficult to understand that's why I redesign the IKEA app to make the
+          app easy and useful for people
+        </p>
+
+        <div class="app-version mt-5">
+          <h3 style="font-size: 28px; font-weight: 600">App version</h3>
+          <p>3.9.1</p>
+
+          <p><strong>Time taken:</strong>1 months</p>
+        </div>
+
+        <div class="challenges mt-4">
+          <h3 style="font-size: 28px">The Challenges</h3>
+          <p>
+            People who use the IKEA app have a better chance to figure out
+            what's in my design therefore they can use it easier before it was!
+            this redesign include creating a new flow and design for users to
+            search for items by word by word or by filtering and adding the
+            selecting item in the cart saved in your heart list so users get
+            easier to use and make them happier
+          </p>
+        </div>
+
+        <div class="design-sprint mt-4">
+          <h3 style="font-size: 30px">Design Sprint</h3>
+          <p>
+            The design is carried out in this research using design thinking
+            methodology
+          </p>
+
+          <img
+            src="images/design sprint.png"
+            alt=""
+            width="900"
+            height="200px"
+            class="mt-4 mb-4 img-fluid"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="steps py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3 class="py-3">Step-1 : Empathize</h3>
+            <h5>Observation</h5>
+            <p>
+              When I observed IKEA version 3.9.1 app where i feel less
+              intraction and users can't be understand how to use. So i noted a
+              few points that could solve the problem in this app so that people
+              can interact with this Application more peacefully and not to
+              frustrated while using this app
+            </p>
+            <img
+              src="images/design-system (2).png"
+              alt=""
+              width="900px"
+              height="600px"
+              class="img-fluid"
+            />
+
+            <div class="research-plan">
+              <h3 class="py-3">Research Plan</h3>
+              <h6>Background</h6>
+              <p>
+                The users review in Google Play store totally went negative
+                people who uses IKEA app tends to handle difficult to use the
+                app and hard to search any item in it.Therfore we the UX
+                designer needs to evaluate the current user interface to find
+                out the problem that amke it difficult for users to serach
+                items,lets find the solution to the problems by creating a new
+                user interface that makes it easier for users.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="step-2.0 py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h3>Step2-Define</h3>
+            <h4 class="py-3 text-info">User Persona</h4>
+            <p>
+              I created user personas from 5 interviewed users after running
+              Usability testing using
+              <a href="https://useberry.com" target="_blank"
+                ><strong>useberry</strong>
+              </a>
+              User personas are needed to descirbe potential users based on the
+              research that has been done. The user persona that I’ve created
+              describes user profile and personal Background, User Environment,
+              Pyschographics, end goals and scenario of using the application,
+              user behavior using the application, frustration when using the
+              application.
+            </p>
+          </div>
+          <div class="col-lg-9">
+            <img src="images/user persona.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Identifying problem -->
+    <div class="idetifying">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3 class="py-4">Identifying the Problem</h3>
+            <p>
+              Based on the results of the analysis on usability testing. The app
+              face 4 main problems by users
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="problem-1 py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h5>Detail: <span class="text-muted">Home Screen </span></h5>
+            <h6 class="py-2">Problem:</h6>
+            <p>
+              Users can't understand what is in the home screen the picture in
+              the home screen is so big and it is difficult to navigated where
+              to go? The steps that the users must take are not simple because
+              the home screen should be as accessible as possible for the users
+              to understand.
+            </p>
+
+            <h6>Solution:</h6>
+            <p>
+              Instead of covering half of the screen we can use slider in the
+              home screen so that users can understand even better and navigate
+              easily and can see rest of the products. its user interface is not
+              good
+            </p>
+          </div>
+          <div class="col-lg-8">
+            <img
+              src="images/p-img01.jpeg"
+              alt=""
+              height="700px"
+              width="300px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="problem-2 py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <img
+              src="images/p-img07.jpeg"
+              alt="problem-2"
+              height="700px"
+              width="300px"
+            />
+          </div>
+          <div class="col-lg-8">
+            <h4 class="py-2">Problem-2</h4>
+
+            <h5>
+              Detail:
+              <span class="text-muted">Home screen scrolling part </span>
+            </h5>
+            <h6 class="py-2">Problem:</h6>
+            <p>
+              The many problems rise in the home screen section in that home
+              screen there is no product detail, rating, price, etc all was the
+              only picture and lots of pictures like gallery
+            </p>
+
+            <h6>Solution:</h6>
+            <p>
+              The solution for my design is to separate all the products with a
+              small card and with sliders add some product images and detail to
+              it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="problem-3 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h4 class="py-2">Problem-3</h4>
+            <h5>Detail: <span class="text-muted">Cart</span></h5>
+            <p>Item cart size item price, item cart</p>
+            <h6 class="py-2">Problem:</h6>
+            <p>
+              The card size and the item price are too large in the item details
+              the add to cart button is not properly fixed it looks unbalanced
+              because on-screen looks full and the information must be beautiful
+              neatly aligned
+            </p>
+
+            <h6>Solution:</h6>
+            <p>
+              Change the item image size and item price font to a smaller size
+              than before to create a more balanced design. The solution can
+              also make more information and people can buy easier than before
+              the position of the cart button has been changed and added trash
+              button and quantity for the product in the cart section at the
+              bottom section you can see how much product added in the cart
+              section and the amount you need to pay then checkout
+            </p>
+          </div>
+          <div class="col-lg-8">
+            <img
+              src="images/p-img03.jpeg"
+              alt="Problem-3"
+              height="700px"
+              width="300px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="problem-4 py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <img
+              src="images/p-img04.jpeg"
+              alt="problem-2"
+              height="700px"
+              width="300px"
+            />
+          </div>
+          <div class="col-lg-8">
+            <h4 class="py-2">Problem-4</h4>
+
+            <h5>
+              Detail:
+              <span class="text-muted">Wishlist /Add to favourite </span>
+            </h5>
+            <h6 class="py-2">Problem:</h6>
+            <p>
+              Users have difficulty finding shopping list menu and detail in the
+              wishlist just a image on the wishlist item it look unbalanced
+              design in the my favorites
+            </p>
+
+            <h6>Solution:</h6>
+            <p>
+              Changed the images added price, review starts product name and a
+              heart icon so that users can more easlity fint the list on my
+              favorites
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ideate py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Step3-Ideate</h3>
+            <p>
+              At this step, I create <strong>User flow</strong> ,
+              <strong>wireframe</strong>
+            </p>
+            <h4 class="text-info">User Flow</h4>
+            <p>
+              I created a User Flow to descirbe the steps the users will go
+              through to Home screen in the IKEA app the adding them to the
+              shopping list and shopping cart
+            </p>
+
+            <img src="images/userflow.png" alt="" class="img-fluid mt-3" />
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <div class="wireframe">
+                <h3 class="text-info">WireFrame</h3>
+                <p>
+                  I created lo-fi wireframes by hand drawing based on the users.
+                  so that they can understand how it look without applying
+                  design.
+                </p>
+
+                <img
+                  src="images/wireframing01.jpeg"
+                  alt="wireframe"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="step-4 py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Stage-4 Prototype</h3>
+            <p>
+              I made the Prototype of the IKEA app's new design using Figma. if
+              you want to find an item in this prototype,there journey will be
+              the same as the explanation I discusses earlier. Please click the
+              link below to try the Prototype
+            </p>
+            <p><strong>NOTE:</strong> Note all button are clickable please</p>
+
+            <a
+              href="https://www.figma.com/proto/iOZk014796IVy6tfmEVeUz/real-world-work?node-id=468%3A12105&scaling=scale-down&page-id=223%3A5790&starting-point-node-id=449%3A10848"
+              class="pt-3 proto-link"
+              target="_blank"
+              >IKEA App Redesign Prototype</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="solution-1" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h2 class="text-info">UI Design</h2>
+            <h4 class="mt-4">Homepage</h4>
+            <p>
+              The homepage is that will first appear when the user opens the
+              application The changes made in the homepage menu are placing the
+              search button on the center.Then the next changes is the banner
+              converted into slider and preference at the top so that users can
+              filter there need what they want in the home screen next i added
+              notification icon and mic icon to the top-right of homepage.
+            </p>
+          </div>
+          <div class="col-lg-8">
+            <img src="images/re01.png" alt="homepage" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="solution-2" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 py-5">
+            <img src="images/re02.png" alt="homepage" class="img-fluid" />
+          </div>
+
+          <div class="col-lg-4">
+            <h4 class="mt-4">My Profile</h4>
+            <p>
+              In the Profile section, I have changed everything added the user's
+              picture, address, email id is given. Then the color full section
+              is added so that users can identify which to click and which to
+              log out.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="solution-3" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h4 class="mt-4">My Cart</h4>
+            <p>
+              The user can see the items in the cart the cart have a trash icon
+              to delete instanstensly and increase or decrease the product
+              quantity for the user the total purchase for amount and a checkout
+              direct to the payment area. all were added in my design
+            </p>
+          </div>
+          <div class="col-lg-8 py-5">
+            <img src="images/re03.png" alt="homepage" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="solution-4" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 py-5">
+            <img src="images/re04.png" alt="homepage" class="img-fluid" />
+          </div>
+          <div class="col-lg-4">
+            <h4 class="mt-4">My wishlist</h4>
+            <p>
+              The users can possibly see the My wishlist section in that user
+              can select or unselect the heart icon in the wishlist and
+              top-right corner i have place direct to cart or you can filter
+              wishlist item there. The wishlist is balanced UI design so that
+              user have little smile on there face for the design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="step-5" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Step-5 Test</h3>
+            <h5 class="text-info">Usability Testing After Redesign</h5>
+            <p>
+              After redesigning the application, I re-evaluated the new design
+              that I had created I tested 5 users who participated in my task
+              scenario. this test is carried out using Figma prototype and
+              useberry and users are aked to run the prototype according to the
+              task on their device. This test also wanted to see how the user’s
+              expectations of the new design that I created, and find out
+              whether the solution I implemented had addressed all the pain
+              points that users felt in the first test of the current IKEA
+              application.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="open-analytics py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h3 class="text-info">Test Results</h3>
+            <p>
+              The results of the usability test of the new design got more
+              positive results and feeback All users can perform every task and
+              the users using the app got excited and happy to use and they told
+              me a quite error to change and I've have changed after the
+              usability test. However, there are still some improvements that I
+              have to make better than new design there are new opportunities
+              that can be developed futher.
+            </p>
+          </div>
+          <div class="col-lg-9">
+            <img
+              src="images/testresult.png"
+              alt="test-results"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="conclusion py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Conclusion</h3>
+            <p>
+              Overall, users have a nice experience after trying out the new
+              design prototype. The bew design makes homescreen better and
+              efficient and easier to use.Smoother to use because of the
+              pleasant UI design in the design and placement of profile,add to
+              cart,home,and my favourite are in the navigation menu Easier to
+              use because users find it helpfull to have a search filed in each
+              product menu.Finally users feel visually and functionlly happy by
+              adding different set of design in cart page and my favourite page
+              informative and creative which in this new design adds a you can
+              instanstensly remove from favourite page by clicking the icon and
+              same as in cart page just clicking the trash icon
+            </p>
+
+            <p>
+              <strong class="text-success">
+                Thank you for your time and attention to read and understand my
+                case study😊 and I'll be constantly updating my website
+              </strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-4 contact-01 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4 class="text-center">
+              <a href="#home" class="alink"> Aasif.J</a>
+            </h4>
+            <p class="text-center">
+              "Every Design has its unique pattern it can't be destroyed may be
+              we can appreciate it "
+            </p>
+          </div>
+
+          <div
+            class="col-lg-4 d-flex align-content-end justify-content-end footer-1"
+          >
+            <a href="https://github.com/imaasif01"
+              ><i class="fab fa-github-square"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/aasifj/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://dribbble.com/zyd01"
+              ><i class="fab fa-dribbble-square"></i
+            ></a>
+          </div>
+        </div>
       </div>
     </section>
 
